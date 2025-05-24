@@ -94,3 +94,9 @@ jobs:
       uses: github/codeql-action/analyze@v3
       with:
         category: "/language:${{matrix.language}}"
+        
+    - shell: bash
+      run: |
+        echo '  Slightly different codeql file'
+        echo '  make release'
+        exit 1
