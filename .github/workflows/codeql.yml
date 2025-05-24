@@ -99,4 +99,3 @@ jobs:
       run: |
         echo '  Slightly different codeql file'
         echo '  make release'
-        exit 1
